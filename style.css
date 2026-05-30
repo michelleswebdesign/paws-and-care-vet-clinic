@@ -72,8 +72,8 @@ nav a {
 }
 
 .hero-content {
-    max-width: 480px;
-    padding-left: 60px;
+    max-width: 350px;
+    padding-left: 0px;
 }
 
 .hero-tagline {
