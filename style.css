@@ -54,7 +54,6 @@ nav a {
     font-weight: 600;
 }
 
-
 /* ===================================
    HERO SECTION
 =================================== */
@@ -62,34 +61,38 @@ nav a {
 .hero {
     background-image: url('images/hero-dog-cat.jpg');
     background-size: cover;
-    background-position: center;
-    min-height: 700px;
+    background-position: right center;
+    min-height: 550px;
 
     display: flex;
     align-items: center;
 }
 
 .hero-content {
-    max-width: 650px;
+    max-width: 480px;
+    padding-left: 60px;
 }
 
 .hero-tagline {
-    font-size: 24px;
+    font-size: 32px;
     color: #b86f50;
-    font-family: cursive;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: 'Playlist Script', cursive;
 }
 
 .hero h1 {
-    font-size: 72px;
-    line-height: 1.1;
-    margin-bottom: 20px;
+    font-size: 64px;
+    line-height: 1.05;
+    margin-bottom: 25px;
+    color: #233126;
 }
 
 .hero-description {
-    font-size: 22px;
-    max-width: 500px;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 420px;
     margin-bottom: 35px;
+    color: #444;
 }
 
 /* ===================================
