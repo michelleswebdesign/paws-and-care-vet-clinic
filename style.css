@@ -14,6 +14,17 @@ body {
     line-height: 1.6;
 }
 
+/* ===================================
+   BRAND COLORS
+=================================== */
+
+:root {
+    --primary-green: #556b3d;
+    --dark-text: #233126;
+    --accent-orange: #b86f50;
+    --light-background: #f7f3ee;
+}
+
 
 /* ===================================
    TYPOGRAPHY
@@ -141,26 +152,9 @@ nav a:hover {
    BUTTONS
 =================================== */
 
-.btn {
-    background-color: #2E7D32;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
+.btn,
 .btn-nav {
-    background-color: #556b3d;
-    color: white;
-    text-decoration: none;
-
-    padding: 16px 32px;
-    border-radius: 999px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    background-color: var(--primary-green);
 }
 
 /* ===================================
