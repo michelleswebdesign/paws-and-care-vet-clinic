@@ -60,7 +60,7 @@ nav a {
 =================================== */
 
 .hero {
-    background-image: url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600');
+    background-image: url('images/hero-dog-cat.jpg');
     background-size: cover;
     background-position: center;
     min-height: 700px;
