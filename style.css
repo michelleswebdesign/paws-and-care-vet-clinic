@@ -67,8 +67,7 @@ nav a:hover {
 =================================== */
 
 .logo img {
-    height: 40px;
-    width: auto;
+    max-width: 200px;
 }
 
 
