@@ -42,11 +42,12 @@ h3 {
 
 nav {
     background-color: transparent;
-    padding: 5px 50px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 20px 60px;
 }
 
 nav a {
@@ -67,7 +68,7 @@ nav a:hover {
 
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 /* ===================================
@@ -75,7 +76,9 @@ nav a:hover {
 =================================== */
 
 .logo img {
-    max-width: 200px;
+    height: 70px;
+    width: auto;
+    display: block;
 }
 
 
@@ -146,6 +149,18 @@ nav a:hover {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.btn-nav {
+    background-color: #556b3d;
+    color: white;
+    text-decoration: none;
+
+    padding: 16px 32px;
+    border-radius: 999px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 /* ===================================
