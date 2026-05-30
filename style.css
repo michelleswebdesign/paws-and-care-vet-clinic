@@ -41,17 +41,25 @@ h3 {
 =================================== */
 
 nav {
-    background-color: #2E7D32;
-    padding: 20px;
-    text-align: center;
+    background-color: transparent;
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 nav a {
-    color: white;
+    color: #233126;
     text-decoration: none;
-    margin: 0 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #2E7D32;
 }
 
 /* ===================================
