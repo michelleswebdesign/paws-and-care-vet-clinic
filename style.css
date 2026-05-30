@@ -1,14 +1,44 @@
+/* ===================================
+   PAWS & CARE VETERINARY CLINIC
+   Main Stylesheet
+=================================== */
+
+
+/* ===================================
+   GLOBAL STYLES
+=================================== */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.6;
 }
 
+
+/* ===================================
+   TYPOGRAPHY
+=================================== */
+
 h1,
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* ===================================
+   LAYOUT
+=================================== */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ===================================
+   NAVIGATION
+=================================== */
 
 nav {
     background-color: #2E7D32;
@@ -23,6 +53,11 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+
+/* ===================================
+   HERO SECTION
+=================================== */
 
 .hero {
     text-align: center;
@@ -41,7 +76,12 @@ nav a {
     margin: 0 auto 30px;
 }
 
-button {
+
+/* ===================================
+   BUTTONS
+=================================== */
+
+.btn {
     background-color: #2E7D32;
     color: white;
     border: none;
