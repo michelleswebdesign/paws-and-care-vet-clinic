@@ -23,3 +23,30 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+button {
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
