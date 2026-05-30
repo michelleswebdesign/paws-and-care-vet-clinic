@@ -59,6 +59,10 @@ nav a {
 =================================== */
 
 .hero {
+    background-image: url('images/hero-dog-cat.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
     background-color: #f7f3ee;
     padding: 60px 0;
 }
