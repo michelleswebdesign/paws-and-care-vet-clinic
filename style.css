@@ -60,12 +60,15 @@ nav a {
 
 .hero {
     background-image: url('images/hero-dog-cat.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: right center;
     min-height: 550px;
 
     display: flex;
     align-items: center;
+
+    background-color: #f7f3ee;
 }
 
 .hero-content {
