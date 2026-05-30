@@ -59,21 +59,28 @@ nav a {
 =================================== */
 
 .hero {
-    background-image: url('images/hero-dog-cat.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-    min-height: 550px;
-
-    display: flex;
-    align-items: center;
-
     background-color: #f7f3ee;
+    padding: 60px 0;
 }
 
-.hero-content {
-    max-width: 350px;
-    padding-left: 0px;
+.hero-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    display: block;
 }
 
 .hero-tagline {
@@ -93,7 +100,7 @@ nav a {
 .hero-description {
     font-size: 20px;
     line-height: 1.6;
-    max-width: 300px;
+    max-width: 350px;
     margin-bottom: 35px;
     color: #444;
 }
