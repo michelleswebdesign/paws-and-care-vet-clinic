@@ -3,6 +3,17 @@
    Main Stylesheet
 =================================== */
 
+/* ===================================
+   CUSTOM FONTS
+=================================== */
+
+@font-face {
+    font-family: 'Playlist Script';
+    src: url('fonts/playlist-script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* ===================================
    GLOBAL STYLES
@@ -130,7 +141,7 @@ nav a:hover {
     font-size: 32px;
     color: #b86f50;
     margin-bottom: 0px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playlist Script', cursive;
 }
 
 .hero h1 {
