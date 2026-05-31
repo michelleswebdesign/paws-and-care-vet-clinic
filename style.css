@@ -125,7 +125,7 @@ nav a:hover {
 
 .hero-content {
     max-width: 550px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .hero-text {
@@ -145,7 +145,7 @@ nav a:hover {
 .hero-tagline {
     font-size: 40px;
     color: #995F0A;
-    margin-bottom: -45px;
+    margin-bottom: -20px;
     font-family: 'Playlist Script', cursive;
    letter-spacing: 1px;
    }
@@ -153,13 +153,13 @@ nav a:hover {
 .hero h1 {
     font-size: 72px;
     line-height: 1.05;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     color: #233126;
 }
 
 .hero-description {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.5;
     max-width: 350px;
     margin-bottom: 35px;
     color: #444;
