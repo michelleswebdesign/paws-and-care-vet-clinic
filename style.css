@@ -165,7 +165,7 @@ nav a:hover {
 =================================== */
 
 .heart-icon {
-    height: 200px;
+    height: 40px;
     width: auto;
     vertical-align: middle;
     margin-left: 6px;
@@ -179,7 +179,7 @@ nav a:hover {
 .paw-divider-icon {
     height: 300px;
     width: auto;
-    vertical-align: middle;
+    vertical-align: left;
     margin-left: 6px;
 }
 
