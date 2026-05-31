@@ -160,6 +160,37 @@ nav a:hover {
 }
 
 /* ===================================
+   HERO DECORATIONS
+=================================== */
+
+.heart-icon {
+    height: 28px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.hero-divider {
+    display: flex;
+    align-items: center;
+    max-width: 320px;
+    margin: 15px 0 25px;
+}
+
+.divider-line {
+    flex: 1;
+    height: 2px;
+    background-color: #d8a07c;
+}
+
+.paw-divider-icon {
+    height: 22px;
+    width: auto;
+    margin: 0 15px;
+}
+
+
+/* ===================================
    BUTTONS
 =================================== */
 
