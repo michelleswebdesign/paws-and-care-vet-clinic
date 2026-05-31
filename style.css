@@ -167,20 +167,17 @@ nav a:hover {
 .heart-icon {
     height: 200px;
     width: auto;
-    vertical-align: middle;
-    margin-left: 0px;
+    margin-left: 6px;
+   vertical-align: middle;
 }
 
 .hero-divider {
-    text-align: center;
-    margin: 10px 0 25px;
+   margin: 10px 0 25px;
 }
 
 .paw-divider-icon {
     height: 300px;
     width: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 
