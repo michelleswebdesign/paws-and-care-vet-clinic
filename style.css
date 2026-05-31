@@ -172,22 +172,13 @@ nav a:hover {
 }
 
 .hero-divider {
-    display: flex;
-    align-items: center;
-    max-width: 320px;
+    text-align: center;
     margin: 15px 0 25px;
 }
 
-.divider-line {
-    flex: 1;
-    height: 2px;
-    background-color: #d8a07c;
-}
-
 .paw-divider-icon {
-    height: 22px;
+    height: 40px;
     width: auto;
-    margin: 0 15px;
 }
 
 
