@@ -140,8 +140,9 @@ nav a:hover {
 .hero-tagline {
     font-size: 40px;
     color: #cc7a00;
-    margin-bottom: -25px;
+    margin-bottom: -45px;
     font-family: 'Playlist Script', cursive;
+   letter-spacing: 1px;
    }
 
 .hero h1 {
